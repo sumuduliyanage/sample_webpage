@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: index-web-service
+  namespace: index-web
   labels:
     name: index-web-service
     app: demo-web-page
