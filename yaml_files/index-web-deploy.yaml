@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: index-web-deploy
+  namespace: index-web
   labels:
     name: index-web-deploy
     app: demo-web-page
